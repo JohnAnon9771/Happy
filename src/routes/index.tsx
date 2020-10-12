@@ -6,6 +6,7 @@ import Landing from '../pages/Landing';
 const Routes: React.FC = () => (
   <Switch>
     <Route path="/" exact component={Landing} />
+    <Route path="/app" component={OrphanagesMap} />
   </Switch>
 );
 
